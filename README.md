@@ -1,4 +1,4 @@
-# SPPT-with-with-earlier-edition-of-WRF
+# SPPT-with-earlier-edition-of-WRF
 
 This project is move stochastic parametrizations scheme to earlier edition of WRF (3.2.1 and 3.6.1)
 This versions can run wrf sppt by parallel and have continuous random pattern in DA-cycled.
