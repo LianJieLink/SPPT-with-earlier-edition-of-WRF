@@ -6,6 +6,7 @@ This versions can run wrf sppt by parallel and have continuous random pattern in
 The setting for namelist as follows:
 
 &stoch
+
 sppt (max_dom)                 = 0        ; Stochastically perturbed physics tendencies (SPPT), 0: off, 1: on
 
 gridpt_stddev_sppt (max_dom)   = 0.5      ; Standard deviation of random perturbation field at each gridpoint. ; Determines amplitude of random perturbations
