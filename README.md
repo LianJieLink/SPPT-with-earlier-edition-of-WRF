@@ -1,4 +1,4 @@
-# SPPT with earlier version of WRF
+# SPPT with earlier versions of WRF
 
 The purpose of this project is to shift stochastic parametrization scheme to earlier versions of WRF (3.2.1 and 3.6.1)
 This package can use WRF sppt scheme by parallel and have continuous random pattern in DA-cycled.
