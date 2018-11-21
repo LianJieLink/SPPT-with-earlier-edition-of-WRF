@@ -1,7 +1,7 @@
-# SPPT-with-earlier-edition-of-WRF
+# SPPT with earlier edition of WRF
 
-This project is move stochastic parametrizations scheme to earlier edition of WRF (3.2.1 and 3.6.1)
-This versions can run wrf sppt by parallel and have continuous random pattern in DA-cycled.
+The purpose of this project is to shift stochastic parametrization scheme to earlier versions of WRF (3.2.1 and 3.6.1)
+This package can use WRF sppt scheme by parallel and have continuous random pattern in DA-cycled.
 
 The setting for namelist as follows:
 
@@ -23,4 +23,4 @@ iseed_sppt                   =17 ; Seed for random number stream for sppt. Will 
 
 start_from_wrfinput                   =.false.   - "switch to control restart in DA-cycled forecasts"
 
-I already test all function in WRF 3.2.1 to make sure it work. If you have any problem please let me know.
+I have already tested all functions in WRF 3.2.1 to make sure it work. If you have any problem please let me know.
